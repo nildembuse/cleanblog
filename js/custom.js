@@ -13,9 +13,10 @@ async function getPosts() {
 
 
 function loadPage(posts) {
-    let md = post.attributes.content
-    let html = converter.makeHtml(md);
+    postsContainer.innerHTML = '';
     posts.forEach(post => {
+        let md = post.attributes.content
+        let html = converter.makeHtml(md);
         postsContainer.innerHTML += `<div class="post-preview">
         <a href="#/posts/${post.id}">
             <h2 class="post-title">${post.attributes.title}</h2>
