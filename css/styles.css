@@ -665,6 +665,14 @@ progress {
     max-width: 1320px;
   }
 }
+.comment {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: #0085A1;
+  color: white;
+}
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
