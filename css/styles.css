@@ -383,7 +383,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+ -webkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -669,7 +669,7 @@ progress {
   display: flex;
   justify-content: center;
 }
-button {
+.btn {
   background-color: #0085A1;
   color: white;
 }
